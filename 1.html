@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>固定布局</title>
+	<link type="text/css" rel="stylesheet" href="css\style.css" >
+	<link rel="stylesheet" href="css\basic.css">
+</head>
+<body>
+
+<!-- body,section,nav需要h1到h6的大纲
+div，header不需要 -->
+
+<header id="header">		<!-- 存一组页面导航 -->
+	<div class="center">
+		<h1 class="logo">中北大学旅行社</h1>
+		<nav class="link">
+			<h2 style="display:none">网站导航</h2>
+			<ul>
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="information.html">旅游咨询</a></li>
+				<li><a href="ticket.html">机票订购</a></li>
+				<li><a href="scenery.html">风景欣赏</a></li>
+				<li><a href="about.html">公司简介</a></li>
+			</ul>
+		</nav>	
+	</div >
+</header>
+
+
+
+<div id="search">
+	<div class="center"></div>
+	<input type="text" class="search" placeholder="请输入景点">
+	<button class="button">搜索</button>
+</div>
+
+
+<div id="tour">
+	<section class="center">
+		<h2>热门景点</h2>
+		<p>国内旅游，国外旅游，自助旅游，自驾旅游，邮轮签证，主题旅游等最新热门旅游推荐 </p>
+	</section>
+	<figure>
+		<img src="img/1.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-长治1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 50 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/2.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-太原1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 80 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/3.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-大同1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 30 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/4.jpeg" alt="">
+			<figcaption><strong class="title">&lt;山西-吕梁1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 20 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/5.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-五台山1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 20 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/6.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-平遥1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 28 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/7.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-运城1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 66 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/8.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-忻州1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 10 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+	<figure>
+		<img src="img/9.jpg" alt="">
+			<figcaption><strong class="title">&lt;山西-晋城1日游&gt;</strong>报团优惠，景点丰富，无自费，成人赠送600优惠券</figcaption>	
+		<div>
+			
+			<span class="price">$<strong> 20 </strong>起</span>
+			<em class="sat">满意度 77%</em>
+		</div>
+		<div class="type">国内长线</div>
+	</figure>
+
+
+</div>
+
+
+<footer id="footer">
+	<div class="top">
+		<div class="block left">
+			<h2>合作伙伴</h2>
+			<hr>
+			<ul>
+				<li>途牛旅游网</li>
+				<li>驴妈妈旅游网</li>
+				<li>携程旅游</li>
+				<li>中国青年旅行社</li>
+			</ul>
+		</div>
+		<div class="block center">
+			<h2>旅游FAQ</h2>
+			<hr>
+			<ul>
+				<li>旅游同签订方式</li>
+				<li>儿童价是怎么定制的</li>
+				<li>旅游路线怎么界定</li>
+				<li>单房差是什么</li>
+				<li>旅游保险有哪些</li>
+			</ul>
+		</div>
+		<div class="block right">
+			<h2>联系方式</h2>
+			<hr>
+			<ul>
+				<li>微博：weibo.com</li>
+				<li>邮箱：565460081@qqq.com</li>
+				<li>地址：山西太原尖草坪区</li>
+			</ul>
+
+		</div>
+
+	</div>
+	<div class="bottom">Copyright © YUCU 中北旅行社-晋ICP 备1206034229-旅行社经营许可证</div>
+</footer>
+
+</body>
+</html>

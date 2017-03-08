@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>固定布局</title>
+	<link type="text/css" rel="stylesheet" href="css\style.css" >
+	<link rel="stylesheet" href="css\basic.css">
+	<link rel="stylesheet" href="css\headline.css">
+</head>
+<body>
+
+<!-- body,section,nav需要h1到h6的大纲
+div，header不需要 -->
+
+<header id="header">		<!-- 存一组页面导航 -->
+	<div class="center">
+		<h1 class="logo">中北大学旅行社</h1>
+		<nav class="link">
+			<h2 style="display:none">网站导航</h2>
+			<ul>
+				<li><a href="1.html">首页</a></li>
+				<li class="active"><a href="information.html">旅游咨询</a></li>
+				<li><a href="ticket.html">机票订购</a></li>
+				<li><a href="scenery.html">风景欣赏</a></li>
+				<li><a href="about.html">公司简介</a></li>
+			</ul>
+		</nav>	
+	</div >
+</header>
+
+<br><br><br>
+
+
+<div id="headline">
+<div class="center">
+	<h2 class="h2">旅游咨询</h2>
+	<h3 class="h3">介绍各种旅游信息，旅游要问，景点攻略等</h3>
+</div>
+
+</div>
+
+<div id="container">   <!-- 加上侧栏 -->
+	<aside class="sidebar">
+		<div class="sidbox recommend">
+			<h2>景点推荐</h2>
+			<div class="tag">
+				<ul>
+		
+				
+
+				<li><a href="###">太原(8)</a></li>
+				<li><a href="###">长治(8)</a></li>
+				<li><a href="###">晋城(8)</a></li>
+				<li><a href="###">吕梁(8)</a></li>
+				<li><a href="###">忻州(8)</a></li>
+				<li><a href="###">大同(8)</a></li>
+				<li><a href="###">运城(8)</a></li>
+				<li><a href="###">晋州(8)</a></li>
+				<li><a href="###">阳泉(8)</a></li>
+				<li><a href="###">临汾(8)</a></li>
+				<li><a href="###">广陵(8)</a></li>
+				<li><a href="###">泽平(8)</a></li>
+				<li><a href="###">高平(8)</a></li>
+				<li><a href="###">山阴(8)</a></li>
+				<li><a href="###">平顺(8)</a></li>
+				<li><a href="###">武乡(8)</a></li>
+				<li><a href="###">榆次(8)</a></li>
+				<li><a href="###">介休(8)</a></li>
+				<li><a href="###">盐湖(8)</a></li>
+				<li><a href="###">河津(8)</a></li>
+				<li><a href="###">平陆(8)</a></li>					
+				</ul>		
+			</div>
+		</div>
+
+		<div class="sidbox hot">
+			<h2>热门推荐</h2>
+			<div class="figure">
+				<figure>
+					<img src="img\11.jpg" alt="">
+					<figcaption>太原一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\12.jpg" alt="">
+					<figcaption>晋城龙山一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\13.jpg" alt="">
+					<figcaption>运城一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\14.jpg" alt="">
+					<figcaption>平遥一日游</figcaption>
+				</figure>
+
+				<figure>
+					<img src="img\15.jpg" alt="">
+					<figcaption>大同一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\16.jpg" alt="">
+					<figcaption>忻州一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\17.jpg" alt="">
+					<figcaption>武乡一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\18.jpg" alt="">
+					<figcaption>平陆一日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img\19.jpg" alt="">
+					<figcaption><a href="###">广陵一日游</a></figcaption>
+				</figure>
+				<figure>
+					<img src="img\20.jpg" alt="">
+					<figcaption>河津一日游</figcaption>
+				</figure>
+			</div>
+
+		</div>
+		<div class="sidbox treasure">
+			<h2>旅游百宝箱</h2>
+			<div class="box">
+				<a href="###" class="treal1">天气预报</a>
+				<a href="###" class="treal2">火车查询</a>
+				<a href="###" class="treal3">航空查询</a>
+				<a href="###" class="treal4">地铁线路查询</a>
+			</div>
+		</div>
+	</aside>
+
+	<div class="list">
+		<div class="info">
+			<ul class="left1">
+				<li><a href="###">限时特价</a></li>
+				<li><a href="###">热门推荐</a></li>
+			</ul>
+			<ul class="right1">
+				<li><a href="###" class="selected">推荐</a></li>
+				<li><a href="###">折扣</a></li>
+				<li><a href="###">价格</a></li>
+			</ul>
+
+
+		</div>
+		
+		<figure class="tour">
+			<img src="img/5.jpg" alt="">
+			<figcaption>
+				<article>
+					<header>
+						<hgroup>
+							<h2>太原一日游</h2>
+							<h3>包团特惠，超丰富景点，无自费，赠送600元成人券</h3>
+						</hgroup>
+						
+					</header>
+							<ol>
+								<li><mark>交通</mark>：春秋航空，太原出发，无需转机</li>
+								<li><mark>团期</mark>：9/01，9/11,9/21...</li>	
+
+							</ol>
+							<div class="buy">
+								<div class="price">$<strong>30</strong><s>$15</s></div>
+								<div class="reserve"><a href="###">立即抢购</a></div>
+							</div>
+
+					<footer>本旅游由太原旅行社赞助提供,截止于<time>2016-10-10</time></footer>
+				
+
+				</article>
+
+
+			</figcaption>
+		</figure>
+		<figure class="tour">
+			<img src="img/6.jpg" alt="">
+			<figcaption>
+				<article>
+					<header>
+						<hgroup>
+							<h2>平遥一日游</h2>
+							<h3>包团特惠，超丰富景点，无自费，赠送600元成人券</h3>
+						</hgroup>
+						
+					</header>
+							<ol>
+								<li><mark>交通</mark>：春秋航空，太原出发，无需转机</li>
+								<li><mark>团期</mark>：9/01，9/11,9/21...</li>	
+
+							</ol>
+							<div class="buy">
+								<div class="price">$<strong>40</strong><s>$15</s></div>
+								<div class="reserve"><a href="###">立即抢购</a></div>
+							</div>
+
+					<footer>本旅游由太原旅行社赞助提供,截止于<time>2016-10-10</time></footer>
+				
+
+				</article>
+
+
+			</figcaption>
+		</figure>
+		<figure class="tour">
+			<img src="img/7.jpg" alt="">
+			<figcaption>
+				<article>
+					<header>
+						<hgroup>
+							<h2>河津一日游</h2>
+							<h3>包团特惠，超丰富景点，无自费，赠送600元成人券</h3>
+						</hgroup>
+						
+					</header>
+							<ol>
+								<li><mark>交通</mark>：春秋航空，太原出发，无需转机</li>
+								<li><mark>团期</mark>：9/01，9/11,9/21...</li>	
+
+							</ol>
+							<div class="buy">
+								<div class="price">$<strong>50</strong><s>$15</s></div>
+								<div class="reserve"><a href="###">立即抢购</a></div>
+							</div>
+
+					<footer>本旅游由太原旅行社赞助提供,截止于<time>2016-10-10</time></footer>
+				
+
+				</article>
+
+
+			</figcaption>
+		</figure>
+		<figure class="tour">
+			<img src="img/8.jpg" alt="">
+			<figcaption>
+				<article>
+					<header>
+						<hgroup>
+							<h2>运城一日游</h2>
+							<h3>包团特惠，超丰富景点，无自费，赠送600元成人券</h3>
+						</hgroup>
+						
+					</header>
+							<ol>
+								<li><mark>交通</mark>：春秋航空，太原出发，无需转机</li>
+								<li><mark>团期</mark>：9/01，9/11,9/21...</li>	
+
+							</ol>
+							<div class="buy">
+								<div class="price">$<strong>60</strong><s>$15</s></div>
+								<div class="reserve"><a href="###">立即抢购</a></div>
+							</div>
+
+					<footer>本旅游由太原旅行社赞助提供,截止于<time>2016-10-10</time></footer>
+				
+
+				</article>
+
+
+			</figcaption>
+		</figure>
+		<figure class="tour">
+			<img src="img/9.jpg" alt="">
+			<figcaption>
+				<article>
+					<header>
+						<hgroup>
+							<h2>晋城一日游</h2>
+							<h3>包团特惠，超丰富景点，无自费，赠送600元成人券</h3>
+						</hgroup>
+						
+					</header>
+							<ol>
+								<li><mark>交通</mark>：春秋航空，太原出发，无需转机</li>
+								<li><mark>团期</mark>：9/01，9/11,9/21...</li>	
+
+							</ol>
+							<div class="buy">
+								<div class="price">$<strong>70</strong><s>$15</s></div>
+								<div class="reserve"><a href="###">立即抢购</a></div>
+							</div>
+
+					<footer>本旅游由太原旅行社赞助提供,截止于<time>2016-10-10</time></footer>
+				
+
+				</article>
+
+
+			</figcaption>
+		</figure>
+		<div class="more">加在更多...</div>
+	</div>
+
+</div>
+
+
+
+
+
+<footer id="footer">
+	<div class="top">
+		<div class="block left">
+			<h2>合作伙伴</h2>
+			<hr>
+			<ul>
+				<li>途牛旅游网</li>
+				<li>驴妈妈旅游网</li>
+				<li>携程旅游</li>
+				<li>中国青年旅行社</li>
+			</ul>
+		</div>
+		<div class="block center">
+			<h2>旅游FAQ</h2>
+			<hr>
+			<ul>
+				<li>旅游同签订方式</li>
+				<li>儿童价是怎么定制的</li>
+				<li>旅游路线怎么界定</li>
+				<li>单房差是什么</li>
+				<li>旅游保险有哪些</li>
+			</ul>
+		</div>
+		<div class="block right">
+			<h2>联系方式</h2>
+			<hr>
+			<ul>
+				<li>微博：weibo.com</li>
+				<li>邮箱：565460081@qqq.com</li>
+				<li>地址：山西太原尖草坪区</li>
+			</ul>
+
+		</div>
+
+	</div>
+	<div class="bottom">Copyright © YUCU 中北旅行社-晋ICP 备1206034229-旅行社经营许可证</div>
+</footer>
+
+</body>
+</html>

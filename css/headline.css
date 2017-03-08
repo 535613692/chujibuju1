@@ -1,0 +1,494 @@
+@charset "utf-8";
+#headline {
+	width: 100%;
+	min-width: 1263px;
+	height: 300px;
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0)),url(../img/headline.jpg) no-repeat center;
+/*		给背景加上渐变效果  让字体看得更清晰
+*/
+}
+
+#headline .center{
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+
+}
+#headline .h2{
+	font-size: 35px;
+	color: #ff5;
+	padding: 50px 0 0 0;
+
+}
+#headline .h3{
+	font-size: 25px;
+	color: #ff4;
+
+}
+#container{
+
+	width: 1263px;
+/*	height: 1200px;
+*/	margin: 30px auto;
+
+}
+#container .sidebar{
+	width: 340px;
+/*	height: 1200px;
+*//*	background-color: #ee4;
+*/	float: right;
+
+}
+
+#container .sidbox{
+	border:1px solid #eee;
+	margin: 0 0 10px 0; 
+	text-align: left;
+}
+#container .sidbox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#container .tag{
+	padding: 10px 0;
+
+}
+#container .tag li {
+	display: inline-block;  /*a不具备设置长度宽度，需要转换为内敛模块*/
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	
+	background-color: #eee;
+	text-indent: 8px;
+}
+#container .tag a{
+	display: block;
+	color: #999;
+
+}
+#container .tag a:hover{
+	background-color: #458b00;
+	color: #fff;
+
+}
+#container .figure{
+	padding: 10px 0;
+}
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+
+#container .box{
+	padding: 10px 0;
+
+}
+#container .box a{
+	display: inline-block;  /*a不具备设置长度宽度，需要转换为内敛模块*/
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	color: #999;
+	background-color: #eee;
+	text-indent: 45px;
+}
+#container .box a:hover{
+	background-color: #458b00;
+	color: #fff;
+
+}
+#container .box a.treal1{
+	background:#eee url(../img/treal3.jpg) no-repeat left center;
+}
+#container .box a.treal2{
+	background:#eee url(../img/treal1.jpg) no-repeat left center;
+}
+
+#container .box a.treal3{
+	background:#eee url(../img/treal2.jpg) no-repeat left center;
+}
+#container .box a.treal4{
+	background:#eee url(../img/treal4.jpg) no-repeat left center;
+}
+
+
+
+#container .list{
+	width: 900px;
+	
+/*	background-color: #555;
+*/	float: left;
+}
+#container .info{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 20px 0;
+}
+#container .left1{
+	display: inline-block;
+/*	background-color: red;
+*/	float: left;
+
+}
+#container .left1 li{
+	display: inline-block;
+/*	background-color: #ccc;
+*/	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+
+}
+#container .left1 li:first-child{
+	background-color: #fff;
+	border-top: 2px solid;
+	position: relative;
+	left: 1px;
+
+}
+#container .left1 a{
+	color:#666;
+}
+
+
+
+#container .right1{
+	display: inline-block;
+/*	background-color: green;
+*/	float: right;
+	padding:0 20px 0 0; 
+}
+#container .right1 li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+
+}
+#container .right1 a{
+	padding: 3px 8px;
+	color: #666;
+/*	background-color:green;
+*/
+}
+#container .right1 a.selected, #container .right1 a:hover{
+	background-color: #458b00;
+	color: #fff;
+
+
+}
+#container .tour{
+	width: 910px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border:1px solid #eee;
+	background-color: #ccc;
+	position: relative;
+
+}
+#container .tour img{
+	float: left;
+
+
+}
+#container .tour figcaption{
+	width: 528px;
+	height: 200px;
+	float: right;
+
+}
+#container .tour hgroup{
+	width: 300px;
+
+}
+#container .tour h2{
+	font-size: 24px;
+	color: #333;
+	font-weight:normal;
+	padding: 5px 0 5px 20px;
+
+}
+#container .tour h3{
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	font-weight:normal;
+	padding: 0 0 5px 20px;
+
+
+}
+#container .tour ol{
+	padding: 0 0 0 20px;		
+	color: #666;
+	line-height: 1.5;
+
+}
+#container .tour mark{
+	background-color: #fff;
+	border: 1px solid #458b00;
+	border-radius: 4px;   /*给边框加上弧度*/
+	padding: 0 5px;
+	color: 
+
+}
+#container .tour .buy{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+
+}
+#container .tour .price{
+
+	color: #f60;
+	font-size: 20px;
+}
+#container .tour .price s{
+	font-size: 16px;
+	color: #999
+}
+#container .tour .reserve{
+	
+
+}
+#container .tour .reserve a{
+	display: block;
+	width: 152px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+
+}
+#container .tour .price strong{
+	font-size: 36px;
+
+}
+#container .tour footer{
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 20px;
+	letter-spacing:1px;
+	position: absolute;
+	bottom: 0;
+}
+#container .tour time{
+	color: #458b00;
+
+}
+#container .informaton .more,#container .scenery .more3{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	background-color: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #666;
+
+}
+#container .ticket,#container .scenery,#container .about{
+
+	color: #666;
+}
+#container .ticket h2,#container .scenery h2,#container .about h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	border-bottom:1px dashed #999;  /*加个上划虚线*/
+	margin: 0 0 15px 0;
+
+}
+#container .ticket .type mark{
+
+	color: #fff;
+	background-color: #458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 16px 0 16px;
+
+}
+#container .ticket .type{
+	margin: 20px 0 10px 0;
+
+}
+
+#container .ticket .left{
+	width: 43%;
+	display: inline-block;
+
+}
+#container .ticket .right{
+	width: 43%;
+	display: inline-block;
+
+
+}
+#container .ticket .button{
+	width:9%;
+	display: inline-block;
+	position:relative;
+	top: -30px; 
+
+}
+#container .ticket .submit{
+	display: block;
+	width: 90px;
+	height: 90px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 4px;
+	border:none;
+	
+	
+	cursor: pointer;
+
+
+}
+#container .ticket .form p{
+
+	line-height: 3;
+
+}
+#container .ticket .form input{
+	width: 250px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 4px;
+	border:1px solid #ccc;
+	color: #666;
+	padding: 5px;
+	margin: 0 0 0 16px;
+	font-size: 18px;
+
+}
+#container .ticket .new{
+
+	margin: 20px 0 0 0;
+}
+#container .ticket .new ul{
+	
+	margin: 20px 0 0 0;
+}
+
+
+#container .ticket .new li{
+	display: inline-block;
+	padding: 5px 10px;
+
+}
+#container .ticket .new li:first-child{
+	padding-left: 0;
+
+}
+#container .ticket .new li:nth-child(2){
+	background-color: #458b00;
+	color: #fff;
+	border-radius: 4px;
+
+}
+
+
+#container .ticket table{
+	margin: 20px 0 0 0;
+	width: 100%;
+	border:1px solid #ddd;
+	border-collapse: collapse;
+
+}
+#container .ticket th{
+	height: 50px;
+	line-height: 50px;
+	border:1px solid #ddd;
+
+}
+#container .ticket td{
+	height: 50px;
+	line-height: 50px;
+	border:1px solid #ddd;
+	text-align: center;
+
+}
+#container .ticket tr:nth-child(2n){
+	background-color: #fafafa;
+
+}
+#container .ticket tr:hover{
+	background-color: #eee;
+
+}
+#container .ticket .price{
+	color: #f60;
+
+}
+#container .ticket .more2{
+	color:#666; 
+
+}
+#container .ticket .reserve{
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 4px;
+	border:none;
+	
+}
+
+#container .scenery figure{
+	border: 1px solid #ddd;
+	display: inline-block;;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 380px;
+	text-align: left;
+	position: relative;	   /*做一个相对点*/
+	
+
+}
+#container .scenery figcaption{
+	text-align: center;
+	padding: 5px;
+
+}
+#container .about p{
+	line-height: 2;
+	margin: 20px 0;
+
+
+}
+#container .about address{
+	line-height: 1.6;
+	margin: 20px 0;
+	font-size: normal;
+
+
+
+}
